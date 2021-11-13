@@ -16,6 +16,9 @@
 ## code . or use atom . based on the text editor you installed.
 
 # BDD
+## The user inputs year,date,month and gender then hits submit button.
+## The application calculates the info,this is called (input)
+## After calculating,the application outputs the akan name of the respective user, this is called (output)
 
 # Known Bugs
 ## Some of the outputs are not very accurate as expected.
