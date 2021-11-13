@@ -7,7 +7,9 @@
 # Description
 ## This is a web application that takes a user's birthday and calculates the day of the week they were born then depending on their gender outputs their Akan name.
 
-# Live link
+# Live link 
+##  https://ag-nes.github.io/Akan-names/
+ 
 
 # Installations
 ## Open terminal
