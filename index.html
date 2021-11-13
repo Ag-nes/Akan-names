@@ -23,30 +23,43 @@
                     </p>
                 </div>
             </div>
-            <div class="main">
-                <div class="row">
-                    <div class="col">
-                        <br>
-                        <table class="tb">
-                            <tr>
-                                <th class="tb">Day of the week</th>
-                                <th class="tb">Female Name</th>
-                                <th class="tb">Male Name</th>
-                            </tr>
-                            <tr>
-                                <th class="tb">SUNDAY</th>
-                                <th class="tb">Akosua</th>
-                                <th class="tb">Kwasi</th>
-                            </tr>
-                        </table>
+
+            <div class="forms">
+                <form name="kanName">
+                    <div class="form-group">
+                      <label for="year">Enter Your Year of Birth</label> <br>
+                      <input name="year" type="text" class="form-control" id="birthYear" placeholder="For example 1997">
                     </div>
+                    <div class="form-group">
+                        <label for="month">Enter Your Birth Month</label> <br>
+                        <input name="month" type="text" class="form-control" id="birthMonth" placeholder="For example March = 5">
+                    </div>
+                    <div class="form-group">
+                        <label for="day">Date of birth</label> <br> 
+                        <input name="day" type="text" class="form-control" id="birthDay" placeholder="For example Date =16">
+                    </div>
+                    <div class="form-group">
+                        <p>Choose Your Gender</p>
+                    <select name="Gender" class="form-control"><br><br>
+                        <option value="Male">Male</option> <br>
+                        <option value="Female">Female</option>
+                     </select><br><br>
+                  <input class="form-control" type="button" value="submit" onclick="validateForm()"> <br><br>
+    
+                  <input class="form-control" type="button" value="Clear Selection" onclick="reset()">
+                  </div>
+    
+                 </form> 
                 </div>
             </div>
-
-        
-        
-
-        </div>
-
-    </body>
-</html>
+    
+            <footer class="page footer">
+                <div class="footer-copyright text-center py-3">
+                    Copyright MIT ©2021-Agnes Okutoyi 
+    
+                </div>
+            </footer>
+            <script src="javascript/script.js"></script>
+        </body>
+    
+    </html>
