@@ -19,9 +19,10 @@ if(targetday==0){
     i=7
 }
 else{
-    i=targetday-1
+    (i=targetday-1)
     var femaleNames = ["Akosua", "Adwoa", "Abenaa", "Akua","Yaa", "Afua", "Ama"];
     var maleNames = ["Kwasi", "Kwadwo", "Kwaku", "Yaw", "Kofi", "Kwame"];
+    var dayNames = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
     alert("Your Akan name is  "+ femaleNames[i]);    
 }
 }
