@@ -23,7 +23,7 @@ else{
 
     (i=targetday-1)
     var femaleNames = ["Akosua", "Adwoa", "Abenaa", "Akua","Yaa", "Afua", "Ama"];
-    var maleNames = ["Kwasi", "Kwadwo", "Kwaku", "Yaw", "Kofi", "Kwame"];
+    var maleNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
     var dayNames = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
     
     if (gender.value === "Male"){
