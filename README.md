@@ -29,7 +29,6 @@
 ###  HTML
 ###  CSS
 ###  Javascript
-### Bootstrap
 
 # Contact Info
 ##  Incase you got any contributions or maybe compliments and questions, do not hesitate to reach out to me via;
